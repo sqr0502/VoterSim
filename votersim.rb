@@ -11,6 +11,7 @@ class World
     def main_menu
       # When user types "L" call the list method
       # When user types "C" call the create method
+      
     end
 
     def create
