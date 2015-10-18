@@ -6,4 +6,8 @@ class Politician
     @party = party
   end
 
+  #returns a formatted string politician information
+  def get_info
+    @output = "Politician, #{@name}, #{@party}"
+  end
 end

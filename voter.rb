@@ -5,4 +5,9 @@ class Voter
     @name = name
     @politics = politics
   end
+
+  #returns a formatted string voter information
+  def get_info
+    @output = "Voter, #{@name}, #{@politics}"
+  end
 end
