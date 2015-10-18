@@ -35,14 +35,21 @@ class World
 
 
     end
-    
+
+  def print_list(list)
+    list.each do |person|
+      puts person.get_info
+    end
+  end
+
     def list(type)
-      #if p
-
-      #elsif v
-
-      #else return both
-      #return list of type names
+      if type == "p"
+        print_list(@politicians)
+      elsif type == "v"
+        print_list(@voters)
+      else
+        print_list(@politicians)
+        print_list(@voters)
     end
 
     def election
