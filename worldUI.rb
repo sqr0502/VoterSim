@@ -54,8 +54,8 @@ class World_Ui
                    anything_else = get_answer("Would you like to update anything else?", "(Y)es or (N)o", w%[y n])
               end
           else
-            person doesnt exist
-            type a person that does exist or back to menu
+            # person doesnt exist
+            # type a person that does exist or back to menu
           end
 
         when "v"
